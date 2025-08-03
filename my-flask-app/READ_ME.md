@@ -1,7 +1,7 @@
-**Reddit Sentiment & Keyword Scraper** \n
+**Reddit Sentiment & Keyword Scraper** 
    A Python-based Reddit scraper built with PRAW, Pandas, and Flask, designed to search for keywords across subreddits, extract post and comment metadata, and visualize posting trends over time. Built as part of an ongoing project to explore online discourse, cultural trends, and sentiment shifts.
 
-**Features** \n
+**Features** 
      Keyword-based search across specified subreddits
      Collects post metadata (title, date, score, etc.) and comment data
      Simple Flask frontend for keyword input
@@ -9,13 +9,13 @@
      Exportable CSV for further analysis (e.g., in Excel or Jupyter)
      Ready for sentiment analysis pipeline integration
 
-**Tech Stack** \n
+**Tech Stack** 
     Backend: Python, Flask, PRAW (Reddit API)
     Frontend: HTML (Flask templates), basic React (optional)
     Data Processing: Pandas, Matplotlib
     Deployment-ready: GitHub Pages for frontend or Flask app hosting via Render/Heroku
 
-**Setup Instructions** \n
+**Setup Instructions** 
 Clone the repository:
 
     bash
@@ -59,19 +59,19 @@ Clone the repository:
     Edit
     http://127.0.0.1:5000
 
-**Example Use Case** \n
+**Example Use Case** 
 Search for the keyword "tradwife" in r/TwoXChromosomes to visualize how often the term appears over time. Useful for tracking cultural moments, misinformation trends, or subreddit activity.
 
-**Roadmap** \n
+**Roadmap** 
  Add support for multiple keywords
  Integrate basic sentiment analysis (TextBlob or Vader)
  UI enhancements with React or Bootstrap
  Historical data via Pushshift or archive import
  Host via Render or GitHub Pages
 
-**Contributing** \n
+**Contributing** 
 Pull requests welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
-**License** \n
+**License** 
 MIT License
 
