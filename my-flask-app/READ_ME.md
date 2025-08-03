@@ -15,22 +15,6 @@
     Data Processing: Pandas, Matplotlib
     Deployment-ready: GitHub Pages for frontend or Flask app hosting via Render/Heroku
 
-**Project Structure** \n
-    php
-    Copy
-    Edit
-    reddit-scraper/
-    ├── app.py                  # Flask app logic
-    ├── reddit_scraper.py       # Keyword scraping logic
-    ├── templates/
-    │   └── index.html          # Input form for keyword
-    ├── static/
-    │   └── output.png          # Graph image output
-    ├── data/
-    │   └── results.csv         # Collected Reddit data
-    ├── requirements.txt
-    └── README.md
-
 **Setup Instructions** \n
 Clone the repository:
 
